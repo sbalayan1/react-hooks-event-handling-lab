@@ -1,1 +1,10 @@
 // Code Keypad Component Here
+
+let Keypad = () => {
+    return (
+        <input type="password" onChange={() => console.log('Entering password...')}>
+        </input>
+    )
+}
+
+export default Keypad
